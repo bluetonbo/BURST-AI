@@ -1,4 +1,12 @@
 import streamlit as st
+
+# 반드시 앱의 가장 상단(다른 st 명령어 전)에 위치해야 합니다.
+st.set_page_config(
+    page_title="Burst-AI 분석기",
+    page_icon="https://your-website.com/logo.png", # 혹은 로컬 파일 경로 'icon.png'
+    layout="wide"
+)
+import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -233,4 +241,5 @@ def main_app():
 # 6. 스크립트 실행
 # ====================================================================
 if __name__ == '__main__':
+
     main_app()
