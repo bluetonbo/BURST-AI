@@ -1,9 +1,9 @@
 import streamlit as st
 
-# 반드시 앱의 가장 상단(다른 st 명령어 전)에 위치해야 합니다.
+# 앱 최상단에 배치
 st.set_page_config(
-    page_title="Burst-AI 분석기",
-    page_icon="https://your-website.com/logo.png", # 혹은 로컬 파일 경로 'icon.png'
+    page_title="Burst-AI",
+    page_icon="https://raw.githubusercontent.com/사용자이름/저장소/main/icon.png", # 직접 만든 아이콘의 인터넷 주소
     layout="wide"
 )
 import streamlit as st
@@ -243,3 +243,4 @@ def main_app():
 if __name__ == '__main__':
 
     main_app()
+
